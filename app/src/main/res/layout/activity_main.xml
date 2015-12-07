@@ -50,7 +50,47 @@
                 android:layout_height="wrap_content"
                 android:text="New Text"
                 android:id="@+id/textView3" />
+
+
+
         </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_status"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:textColor="#ff0000"
+                android:text="@string/text_bluetooth_off" />
+
+            <Button
+                android:id="@+id/btn_enable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_enable" />
+
+            <Button
+                android:id="@+id/btn_control"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="true"
+                android:text="@string/bt_connect" />
+            <Button
+                android:id="@+id/btn_scan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="@string/text_scan_devices" />
+
+        </LinearLayout>
+
+
 
         <ImageButton
             android:layout_width="58dp"
