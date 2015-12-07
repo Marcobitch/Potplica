@@ -52,11 +52,11 @@ public class MainActivity extends AppCompatActivity {
 
 
         //온도값을 출력
-        wat_text=(TextView) findViewById(R.id.wat_view);
-        sun_text=(TextView) findViewById(R.id.sun_view);
-        tem_text=(TextView) findViewById(R.id.tem_view);
-        alarm_text=(TextView) findViewById(R.id.alarm_view);
-
+        //wat_text=(TextView) findViewById(R.id.wat_view);
+        //sun_text=(TextView) findViewById(R.id.sun_view);
+        //tem_text=(TextView) findViewById(R.id.tem_view);
+        //alarm_text=(TextView) findViewById(R.id.alarm_view);
+/*
 
         //back Thread
         BackThread backThread = new BackThread();
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
                 System.out.println("light supply");
                 sunSupply = true;
             }
-        });
+        });*/
 
 
 
